@@ -1806,9 +1806,9 @@
             return;
         }
 
-        if (_.slideCount <= _.options.slidesToShow) {
+        /*if (_.slideCount <= _.options.slidesToShow) {
             return;
-        }
+        }*/
 
         if (sync === false) {
             _.asNavFor(index);
